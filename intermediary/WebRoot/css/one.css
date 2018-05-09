@@ -1,0 +1,135 @@
+/* CSS Document */
+body{
+	background-color: #FAF8F5;
+		margin: 0px;
+	padding: 0px;
+}
+/*基本链接样式*/
+.a{cursor:pointer;color:#00457d}
+.a:link,.a:active,.a:visited{color:#00457d}
+.a:hover{color:#ff6000}
+.a2{cursor:pointer;color:#ff6000}
+.a2:link,.a2:active,.a2:visited{color:#ff6000}
+.a2:hover{text-decoration:underline}
+.ahover{text-decoration:underline}
+/*底线*/
+.txline{text-decoration:underline}
+/*框架结构*/
+.icon_arrow{width:16px;height:16px;background:url(http://img01.51jobcdn.com/im/2016/icon/arrow.png) no-repeat}
+.container{width:1002px;margin:0 auto}
+/*头部*/
+.header{position:relative;min-width:1002px;font:14px "Microsoft YaHei";z-index:998}
+.header p,.header ul{margin:0;padding:0}
+.header li{font-family:"Microsoft YaHei";list-style:none}
+.header a{font-family:"microsoft yahei" !important;color:#333;text-decoration:none}
+.header a:visited,.header a:active,.header a:link{color:#333}
+.header a:hover{color:#ff6000 !important}
+.header .e_icon{background:url(http://img01.51jobcdn.com/im/2016/icon/header.png) no-repeat}
+.header .in{width:1002px;margin:0 auto}
+.header .bar,.header .nag,.header .snag{position:relative;z-index:1}
+.header .bar{height:32px;line-height:32px;font-size:14px;background-color:#FF6633;z-index:2}
+.header .bar .icon_arrow{position:relative;display:inline-block;top:3px;*top:0;margin-left:3px;background-position:-16px 0}
+.header .bar a{font-size:14px !important}
+.header .app{float:left;width:106px;height:32px;color:#fff}
+.header .app ul{position:absolute;height:32px;overflow:hidden}
+.header .app .e_icon{float:left;width:10px;height:14px;margin:9px 6px 0 10px;background-position:-15px -254px}
+.header .app img{vertical-align:top}
+.header .app p{width:80px;height:18px;line-height:18px;color:#666;text-align:center;clear:both;padding-top:5px}
+.header .app p a{color:#666}
+.header .l{float:left;color:#fff;margin:0 5px}
+.header .rlk{float:right;height:32px;margin-left:15px}
+.header .rlk a,.header .rlk a:hover{font-size:14px;color:#fff !important}
+.header .rlk .l{float:none;margin:0 15px}
+.header .uer .op{float:left;width:140px;height:32px;font-size:14px;color:#fff;text-align:center;background-color:#ffa000}
+.header .uer .op a{color:#fff}
+.header .uer .op a:hover{color:#fff !important;text-decoration:underline}
+.header .uer .l{position:absolute;left:140px;margin:0;z-index:2}
+.header .uer{position:relative;width:140px;float:right}
+.header .uer ul{position:absolute;right:0;top:0;width:140px;height:32px;overflow:hidden;background-color:#ffa000;z-index:1}
+.header .uer ul:hover{overflow:visible;background-color:#ff8900;z-index:3}
+.header .uer ul:hover .tle em{background-position:-16px -16px}
+.header .uer li{height:40px;line-height:40px;cursor:pointer;background-color:#fff;border-left:1px solid #e8e8e8;border-right:1px solid #e8e8e8}
+.header .uer li.tle{height:32px;line-height:32px;color:#fff;text-align:center;background-color:transparent;border:0 none}
+.header .uer li.e_icon:hover{background-color:#fff2e1}
+.header .uer li.last{border-top:1px solid #e8e8e8;border-bottom:1px solid #e8e8e8}
+.header .uer li.last2{border-bottom:1px solid #e8e8e8}
+.header .uer li>a{display:block;height:40px;font-size:14px;color:#666;text-indent:36px}
+.header .uer li>a:hover{color:#ff6000}
+.header .uer li span a{color:#fff !important}
+.header .uer .point{background-image:url(http://img01.51jobcdn.com/im/2016/icon/point.png);background-repeat:no-repeat;background-position:120px 5px}
+.header .uer .e2{background-position:0 -40px}
+.header .uer .e3{background-position:0 -80px}
+.header .uer .e4{background-position:0 -120px}
+.header .uer .e5{background-position:0 -160px}
+.header .uer .e6{background-position:0 -200px}
+.header .uer .uname{display:inline-block;max-width:80px;height:32px;color:#fff;text-indent:0;vertical-align:top;padding-left:26px;background-position:-11px -284px}
+.header .uer .uname:hover{color:#fff !important}
+.header .nag,.header .snag{height:56px;line-height:56px;background-color:#fff;border-bottom:1px solid #e8e8e8}
+.header .nag .logo{float:left;margin-top:8px}
+.header .nag .nlink{float:right}
+.header .nag .nlink a{float:left;height:56px;font-size:16px;margin-left:40px}
+.header .nag .nlink .on{height:52px;font-weight:bold;color:#ff6000;border-bottom:4px solid #ff6000}
+.header .nag .nlink.n2 a{font-size:14px;margin-left:30px}
+.header .nag .nlink.n2 .on{border-bottom:0 none}
+.header .nag .tl{float:left;font-size:22px;color:#333}
+.header .gp{float:left;width:1px;height:22px;font-size:0;margin:17px 10px 0;background-color:#e8e8e8}
+.header .slogen{float:left;margin:20px 0 0 10px}
+.cresume{
+	height:50px;
+	line-height:50px;
+	font-size:14px;
+	background-color:antiquewhite;
+	text-align: center;
+	
+	
+}
+.cresume a{
+	color:#FF6633;
+	font-weight:bolder;
+}
+.row{
+	background-color: white;
+	opacity:0.9;
+}
+.pink-button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 15px;
+    display: inline-block;
+    background: #a95bc3;
+    font-weight: normal;
+}
+
+.pink-button:hover {
+    color: #fff;
+}
+.main-footer {
+    border-top: 2px solid #46494f;
+    border-bottom: 2px solid #46494f;
+    padding: 30px 0 15px 0;
+}
+
+.main-footer .social li {
+    display: inline-block;
+    margin: 0 15px 15px 15px;
+}
+
+.main-footer .social li a {
+    padding: 20px;
+}
+
+.main-footer .social li a:hover {
+    background: #4e91c9;
+    border-color: #4e91c9;
+}
+
+.copyright {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.copyright p {
+    margin-bottom: 10px;
+    font-size: 12px;
+}

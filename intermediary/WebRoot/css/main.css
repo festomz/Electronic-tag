@@ -1,0 +1,257 @@
+
+.bg-blur{
+	-webkit-filter: blur(15px);
+            -moz-filter: blur(15px);
+            -o-filter: blur(15px);
+            -ms-filter: blur(15px);
+            filter: blur(15px);
+}
+.mr200{
+	margin-right:200px;
+}
+a{
+	color: #777;
+	text-decoration:none;
+}
+a:focus,
+a:hover {
+	color: #b00;
+	text-decoration:none;
+}
+header {
+   <!--background: #8643c3cb;-->
+    height: 80px;
+}
+header .account{
+	padding-right:200px;
+	text-align:right;
+	color:white;
+	line-height:70px;
+	
+}
+header .account>a{
+	float:right;
+	padding-right:20px;
+	line-height: 40px;
+	color:white;
+	line-height:70px;
+	
+}
+header .account>a:hover{
+	
+	color:#eee;
+
+	
+}
+header .logo{
+	margin-top:0px;
+	margin-left:50px;
+    float:left;
+	line-height:60px;
+	font-size:28px;
+	color:#FF6633;
+}
+
+main{
+	margin-top:5px;
+}
+
+
+main .search-box{
+	height:30px;
+}
+
+main .input-group{
+	margin:20px 30px;
+}
+main ul{
+	width:1040px;
+	margin:0 auto;
+	padding-left: 0;
+	list-style: none;
+	
+}
+main ul li{
+
+	display:inline-block;
+}
+main ul li .add{
+	
+    float:left;
+	margin:30px 20px 0px 20px;
+	padding:5px;
+	width:300px;
+	height:250px;
+	border:4px solid silver;
+	border-radius:8px;
+	text-align:center;	
+}
+
+main ul li .add >a{
+
+	font-size:36px;
+	color:#31a8e6;
+	line-height:230px;
+}
+main ul li .add:hover{
+	border:4px solid gray;
+}
+main ul li img{
+	margin:30px 20px 0px 20px;
+	padding:5px;
+	width:300px;
+	height:250px;
+	border:4px solid silver;
+	border-radius:8px;
+}
+main ul li img:hover{
+	border:4px solid gray;
+}
+main ul li p{
+	text-align:center;
+	line-height:50px;
+}
+main ul li p span.price{
+	margin:0 20px;
+}
+main ul li p a.add-order{
+	padding:3px 12px;
+	border:2px solid #31a8e6;
+	border-radius:5px;
+	color:#31a8e6;
+	
+}
+main ul li p a.add-order:hover{
+	border:2px solid #3190e6;
+	color:#3190e6;
+}
+/*登录页*/
+
+.bg .login{
+	text-align:center;
+	margin:0 auto;
+	width:400px;
+	padding:0 30px 30px 30px;
+	background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff, #eee);
+    background-image: -moz-linear-gradient(top, #fff, #eee);
+    background-image: -ms-linear-gradient(top, #fff, #eee);
+    background-image: -o-linear-gradient(top, #fff, #eee);
+    background-image: linear-gradient(top, #fff, #eee);  
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;  
+    -webkit-box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+    -moz-box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          1px 1px   0 rgba(0,   0,   0,   .1),
+          3px 3px   0 rgba(255, 255, 255, 1),
+          4px 4px   0 rgba(0,   0,   0,   .1),
+          6px 6px   0 rgba(255, 255, 255, 1),  
+          7px 7px   0 rgba(0,   0,   0,   .1);
+    box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+}
+
+.bg .login h3{
+	
+    color: #666;
+    padding:30px 0;
+    letter-spacing: 4px;
+    font: normal 18px/1 "microsoft YaHei";
+    position: relative;
+}
+.bg .login h3:after, .bg .login h3:before{
+    background-color: #777;
+    content: "";
+    position: absolute;
+    height: 1px;
+    top: 40px;
+    width: 130px;   
+}
+.bg .login h3:after
+{ 
+    background-image: -webkit-gradient(linear, left top, right top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(left, #777, #fff);
+    background-image: -moz-linear-gradient(left, #777, #fff);
+    background-image: -ms-linear-gradient(left, #777, #fff);
+    background-image: -o-linear-gradient(left, #777, #fff);
+    background-image: linear-gradient(left, #777, #fff);      
+    right: 0;
+}
+
+.bg .login h3:before
+{
+    background-image: -webkit-gradient(linear, right top, left top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(right, #777, #fff);
+    background-image: -moz-linear-gradient(right, #777, #fff);
+    background-image: -ms-linear-gradient(right, #777, #fff);
+    background-image: -o-linear-gradient(right, #777, #fff);
+    background-image: linear-gradient(right, #777, #fff);
+    left: 0;
+}
+
+
+.bg .login .form-group{
+	padding:10px 30px;
+}
+.bg .login button{
+	
+	margin:0 50px;
+}
+
+main2{
+	float:left;
+	height: 1000px;
+	margin-left:10px;
+	width: 89%;
+	background: #D32628;
+}
+
+.acount img{
+	margin-left: atuo;
+	margin-right:atuo;
+	margin-top:10;	height:20%;
+	
+}
+
+/*错误输出*/
+.fielderror{
+	margin-left:30px;
+	color:red;
+	font-size:1em;
+}
+main h3{
+	text-align:center;
+}
+
+main table{
+	
+	margin:0 auto;
+	border:1px solid #31a8e6;
+	width:500px;
+	
+}
+main table th{
+	
+	height:50px;
+	
+}
+main table td{
+	
+	text-align:center;
+	height:40px;
+}
+
